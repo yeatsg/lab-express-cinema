@@ -4,5 +4,16 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.landing-page {
+  background-image: url("../images/cinema.jpg"), linear-gradient(white, black);
+  background-size: cover;
+}
+
+.movie-boxes {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
 }
